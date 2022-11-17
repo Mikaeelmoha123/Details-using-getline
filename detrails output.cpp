@@ -6,7 +6,7 @@ int main()
     cin >> FirstName;
     cout << "Your Last Name: ";
     cin >> LastName;
-    FullName = FirstName + LastName;
+    FullName = FirstName + ' ' + LastName;
     cout << "Your Full Name: " << FullName << "\n";
     getline(cin, FullName);
     cout << "Your Favorite Meal: ";
